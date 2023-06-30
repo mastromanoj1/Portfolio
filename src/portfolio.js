@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Manoj Kumar's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Manoj Kumar's Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Manoj Kumar M",
-  logo_name: "AshutoshHathidara",
+  logo_name: "Manoj Kumar",
   nickname: "Mighty",
   subTitle:
     "During Pandemic, I wondered how technology has been integrated into our daily life. It was high time that I spent and explored the world of developers.From then on, I started creating simple projects along with my academics. Do check out my projects..",

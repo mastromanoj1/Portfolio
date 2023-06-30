@@ -24,7 +24,7 @@ class Header extends Component {
         <SeoHeader />
         <div>
           <header className="header">
-            <NavLink to={link} tag={Link} className="logo">
+            <NavLink to="/home" tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
