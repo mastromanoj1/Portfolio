@@ -1,10 +1,10 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ2",
       "name": "Mighty Weather",
       "createdAt": "1st Apirl 2023",
-      "url": "https://mightyweather.netlify.app/",
+      "url": "https://weather.manojkumar.tech",
       "description": "🔥 A simple react application with weather API .",
       "isFork": false,
       "languages": [
@@ -17,8 +17,74 @@
           "iconifyClass": "logos-css-3"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "REACT.JS",
+          "iconifyClass": "skill-icons:react-dark"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Chatbot Billing ",
+      "createdAt": "Feb 2022",
+      "url": "https://mightyweather.netlify.app/",
+      "description": "📌 It is a social media Chatbot used to generate online bills.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "NODE.JS",
+          "iconifyClass": "logos:nodejs"
+        },
+        {
+          "name": "EXPRESS.JS",
+          "iconifyClass": "devicon:express"
+        },
+        {
+          "name": "TELEGRAM-API",
+          "iconifyClass": "logos:telegram"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ3",
+      "name": "Intercollege Event Bot ",
+      "createdAt": "March 2023",
+      "url": "https://t.me/macticzz_bot",
+      "description": "📌This bot is Helpful for guiding students in a Intercollege Event",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TELEGRAM-API",
+          "iconifyClass": "logos:telegram"
+        },
+        {
+          "name": "NODE.JS",
+          "iconifyClass": "logos:nodejs"
+        },
+        {
+          "name": "EXPRESS.JS",
+          "iconifyClass": "devicon:express"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ3",
+      "name": "E-Recipt for Bus Booking",
+      "createdAt": "March 2023",
+      "url": "https://script.google.com/macros/s/AKfycbzBwCjBa0I0LS4ChZprzJpZgMif2NQ-cciDn2-928j99d28aILXnmF2bdRSYWdCOVKbXA/exec",
+      "description": "📌 Prints the data in PDF format from googlesheet.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Google Appsscript",
+          "iconifyClass": "simple-icons:googleappsscript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
         }
       ]
     }

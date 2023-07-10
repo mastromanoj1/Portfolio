@@ -63,7 +63,7 @@ class Projects extends Component {
         />
 
         {/* Publications  */}
-        {publications.data.length > 0 ? (
+        {/* {publications.data.length > 0 ? (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
               <div className="publications-heading-div">
@@ -90,7 +90,7 @@ class Projects extends Component {
           {publications.data.map((pub) => {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
-        </div>
+        </div> */}
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

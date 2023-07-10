@@ -90,9 +90,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive website front end using React.",
+        "⚡ Developing mobile applications using React Native.",
+        "⚡ Creating application backend in Node and Express",
       ],
       softwareSkills: [
         {
@@ -133,7 +133,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos:nodejs",
           style: {
             color: "#339933",
           },
@@ -145,27 +145,27 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
+        // {
+        //   skillName: "Yarn",
+        //   fontAwesomeClassname: "simple-icons:yarn",
+        //   style: {
+        //     color: "#2C8EBB",
+        //   },
+        // },
+        // {
+        //   skillName: "Gatsby",
+        //   fontAwesomeClassname: "simple-icons:gatsby",
+        //   style: {
+        //     color: "#663399",
+        //   },
+        // },
+        // {
+        //   skillName: "Flutter",
+        //   fontAwesomeClassname: "simple-icons:flutter",
+        //   style: {
+        //     color: "#02569B",
+        //   },
+        // },
       ],
     },
     // {
@@ -242,53 +242,70 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
+    // {
+    //   siteName: "LeetCode",
+    //   iconifyClassname: "simple-icons:leetcode",
+    //   style: {
+    //     color: "#F79F1B",
+    //   },
+    //   profileLink: "https://leetcode.com/layman_brother/",
+    // },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/layman_brother",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
+    // },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
+    //   },
+    //   profileLink: "http://codeforces.com/profile/layman_brother",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    // },
     {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
+      siteName: "Stack Overflow",
+      iconifyClassname: "skill-icons:stackoverflow-dark",
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://stackoverflow.com/users/16375603/manoj-kumar",
+    },
+    {
+      siteName: "Coursera",
+      iconifyClassname: "arcticons:coursera",
+      style: {
+        color: "#20BEFF",
+      },
+      profileLink:
+        "https://www.coursera.org/user/d1e94a5607f1f76793d5a107fed6213f",
     },
   ],
 };
