@@ -9,6 +9,7 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import Award from "../pages/awards/AwardComponent";
 
 export default class Main extends Component {
   render() {
@@ -35,17 +36,24 @@ export default class Main extends Component {
                 )}
               />
               <Route
-                path="/contact"
-                render={(props) => (
-                  <Contact {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
                 )}
               />
+              <Route
+                path="/awards"
+                render={(props) => (
+                  <Award {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/contact"
+                render={(props) => (
+                  <Contact {...props} theme={this.props.theme} />
+                )}
+              />
+
               <Route
                 path="*"
                 render={(props) => (
@@ -73,43 +81,27 @@ export default class Main extends Component {
                 render={(props) => <Home {...props} theme={this.props.theme} />}
               />
               <Route
-                path="/experience"
-                exact
-                render={(props) => (
-                  <Experience {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
                 path="/education"
                 render={(props) => (
                   <Education {...props} theme={this.props.theme} />
                 )}
               />
               <Route
-                path="/opensource"
+                path="/projects"
                 render={(props) => (
-                  <Opensource {...props} theme={this.props.theme} />
+                  <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/awards"
+                render={(props) => (
+                  <Award {...props} theme={this.props.theme} />
                 )}
               />
               <Route
                 path="/contact"
                 render={(props) => (
                   <Contact {...props} theme={this.props.theme} />
-                )}
-              />
-              {/* <Route
-							path="/splash"
-							render={(props) => (
-								<Splash
-									{...props}
-									theme={this.props.theme}
-								/>
-							)}
-						/> */}
-              <Route
-                path="/projects"
-                render={(props) => (
-                  <Projects {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>

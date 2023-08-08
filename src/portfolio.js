@@ -5,6 +5,67 @@ const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
+//awards
+
+const awards = [
+  {
+    id: 1,
+    title: "Code War",
+    subTitle: "Kongu arts and science college",
+    description:
+      "The thrill of victory courses through my veins as I celebrate my inaugural triumph in the code competition, a validation of my coding journey.",
+    year: "2020",
+    img_url:
+      "https://res.cloudinary.com/dkw7am0sx/image/upload/c_scale,r_50,w_400/v1691491756/portfolio/award_1.jpg",
+    arrow_colour: "red",
+    icon: "healthicons:award-trophy",
+    icon_color: "#f0e68c",
+    icon_backdrop: "#85b7d5",
+  },
+  {
+    id: 2,
+    title: "Code War",
+    subTitle: "Kongu arts and science college",
+    description:
+      "The thrill of victory courses through my veins as I celebrate my inaugural triumph in the code competition, a validation of my coding journey.",
+    year: "2020",
+    img_url:
+      "https://res.cloudinary.com/dkw7am0sx/image/upload/c_scale,w_400/v1691489195/portfolio/sara_nav.png",
+    arrow_colour: "red",
+    icon: "healthicons:award-trophy",
+    icon_color: "#f0e68c",
+    icon_backdrop: "#85b7d5",
+  },
+  {
+    id: 3,
+    title: "Natinal Science Day 2022",
+    subTitle: "Kongu arts and science college",
+    description:
+      "On National Science Day 2022, I joined fellow enthusiasts in a collective exploration of the frontiers of science, igniting sparks of curiosity.",
+    year: "2020",
+    img_url:
+      "https://res.cloudinary.com/dkw7am0sx/image/upload/c_scale,r_30,w_400/v1691501473/portfolio/award_2.jpg",
+    arrow_colour: "red",
+    icon: "healthicons:award-trophy",
+    icon_color: "#f0e68c",
+    icon_backdrop: "#85b7d5",
+  },
+  {
+    id: 4,
+    title: "Code War",
+    subTitle: "Kongu arts and science college",
+    description:
+      "The thrill of victory courses through my veins as I celebrate my inaugural triumph in the code competition, a validation of my coding journey.",
+    year: "2020",
+    img_url:
+      "https://res.cloudinary.com/dkw7am0sx/image/upload/c_scale,r_50,w_400/v1691491756/portfolio/award_1.jpg",
+    arrow_colour: "red",
+    icon: "healthicons:award-trophy",
+    icon_color: "#f0e68c",
+    icon_backdrop: "#85b7d5",
+  },
+];
+
 //SEO Related settings
 const seo = {
   title: "Manoj Kumar's Portfolio",
@@ -25,21 +86,12 @@ const greeting = {
   subTitle:
     "During Pandemic, I wondered how technology has been integrated into our daily life. It was high time that I spent and explored the world of developers.From then on, I started creating simple projects along with my academics. Do check out my projects..",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://drive.google.com/file/d/1nQnvDn6Ng-_3aoWEIDCSvGgmXzBpoCXB/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/mastromanoj1",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/mastromanoj1",
@@ -52,30 +104,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "YouTube",
-  //   link: "https://youtube.com/c/DevSense19",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
   {
     name: "Gmail",
     link: "mailto:mastromanoj1@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  // {
-  //   name: "Twitter",
-  //   link: "https://twitter.com/ashutosh_1919",
-  //   fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-  //   backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  // },
-  // {
-  //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
-  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
   {
     name: "Instagram",
     link: "https://www.instagram.com/mighty__mk/",
@@ -145,27 +179,13 @@ const skills = {
             color: "#CB3837",
           },
         },
-        // {
-        //   skillName: "Yarn",
-        //   fontAwesomeClassname: "simple-icons:yarn",
-        //   style: {
-        //     color: "#2C8EBB",
-        //   },
-        // },
-        // {
-        //   skillName: "Gatsby",
-        //   fontAwesomeClassname: "simple-icons:gatsby",
-        //   style: {
-        //     color: "#663399",
-        //   },
-        // },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
       ],
     },
     // {
@@ -344,7 +364,7 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "React.JS",
+      title: "Developing Front-End Apps with React",
       subtitle: "-IBM skills network",
       logo_path: "ibm_logo.png",
       certificate_link:
@@ -354,11 +374,20 @@ const certifications = {
     },
     {
       title: "ES-6 Javascript",
-      subtitle: " -Guided Project",
+      subtitle: "Coursera ",
       logo_path: "coursera.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://coursera.org/share/8ac131a3cb023fab01661576c6f5cc8d",
+      alt_name: "Javascript-Es6",
+      color_code: "#0000",
+    },
+    {
+      title: "React.Js",
+      subtitle: " -learn mall",
+      logo_path: "react.jpeg",
+      certificate_link:
+        "https://drive.google.com/file/d/1fR-Th_6YQntYZM17SFLnkwEI1nK_j5VJ/view",
+      alt_name: "React.js",
       color_code: "#0000",
     },
     {
@@ -366,91 +395,19 @@ const certifications = {
       subtitle: "- University of California San Diego",
       logo_path: "UCSanDiego.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
+        "https://coursera.org/share/b55024be12aa1d6f0ce20d3acf030e8a",
+      alt_name: "Java",
       color_code: "#15274b",
     },
-    // {
-    //   title: "Data Science",
-    //   subtitle: "- Alex Aklson",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Big Data",
-    //   subtitle: "- Kim Akers",
-    //   logo_path: "microsoft_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-    //   alt_name: "Microsoft",
-    //   color_code: "#D83B0199",
-    // },
-    // {
-    //   title: "Advanced Data Science",
-    //   subtitle: "- Romeo Kienzler",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Advanced ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "DL on Tensorflow",
-    //   subtitle: "- Laurence Moroney",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "Fullstack Development",
-    //   subtitle: "- Jogesh Muppala",
-    //   logo_path: "coursera_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-    //   alt_name: "Coursera",
-    //   color_code: "#2A73CC",
-    // },
-    // {
-    //   title: "Kuberenetes on GCP",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    // {
-    //   title: "Cloud Architecture",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
+    {
+      title: "Introduction to R Software",
+      subtitle: "NPTEL",
+      logo_path: "nptel_cover.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1HCsQiyK0oHEDYQV16XHloKsqFnSqs7OW/view",
+      alt_name: "Java",
+      color_code: "#15274b",
+    },
   ],
 };
 
@@ -698,6 +655,7 @@ const contactPageData = {
 };
 
 export {
+  awards,
   settings,
   seo,
   greeting,
